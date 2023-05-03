@@ -1,0 +1,42 @@
+
+.contact h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/*---FORM STYLE----*/ 
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-right: 4rem;
+}
+
+.form_name {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.con_form input[type="text"] {
+  width: 50%;
+  color: var(--color-white);
+}
+
+.con_form input, textarea {
+  width: 100%;
+  padding: 1rem;
+  background: var(--color-bg2);
+  color: white;
+
+}
+
+.con_form .btn {
+   width: max-content;
+   background: var(--color-danger);
+   color: var(--color-white);
+   cursor: pointer;
+   margin-top: 1rem;
+}
+
